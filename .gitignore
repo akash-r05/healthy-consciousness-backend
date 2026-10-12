@@ -1,0 +1,33 @@
+# .gitignore
+
+HELP.md
+.target/
+.idea/
+*.iml
+.vscode/
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+*.jar
+**/target/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+mysql-data/
